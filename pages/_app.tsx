@@ -18,7 +18,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         />
 
-        <title>VersaX | The AI-Powered, Non-Custodial Trading Experience</title>
+        <title>
+          Neurafi | The AI-Powered, Non-Custodial Trading Experience
+        </title>
         <meta
           name="description"
           content="VersaX, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
