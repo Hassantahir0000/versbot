@@ -360,13 +360,10 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
                 marginLeft: "auto",
               }}
             >
-              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Home</div>{" "}
-              {/* White text with 70% opacity */}
-              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>
-                Whitepaper
-              </div>
-              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Gitbook</div>
-              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Twitter</div>
+              <div className="hover-text">Home</div>
+              <div className="hover-text">Whitepaper</div>
+              <div className="hover-text">Gitbook</div>
+              <div className="hover-text">Twitter</div>
             </div>
 
             {/* <Home href="#home">Home</Home>

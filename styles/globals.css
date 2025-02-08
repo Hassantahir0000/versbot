@@ -118,3 +118,13 @@ img {
 .grid-PICTURE {
   grid-area: PICTURE;
 }
+
+.hover-text {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.hover-text:hover {
+  color: white;
+}
