@@ -92,8 +92,8 @@ const Heading = styled.h1`
   font-size: inherit;
   line-height: 72px;
   font-size: 55px;
-  font-weight: 700;
-  font-family: inherit;
+  font-weight: 400 !important;
+  font-family: Chopsic;
   @media screen and (max-width: 1300px) {
     font-size: 50px;
     line-height: 60px;
@@ -387,7 +387,7 @@ const HeroContent: NextPage<ContentType> = ({ className = "" }) => {
         </HeroSection>
       </ContentWrapper>
       <Arrow onClick={() => scrollToBottom()}>
-        <img width={32} src="/down-arrow.svg" alt="" />
+        <img width={32} src="/images/down-arrow.svg" alt="" />
       </Arrow>
     </div>
   );

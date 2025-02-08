@@ -9,6 +9,15 @@
   src: url("/mabp.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Chopsic";
+  src: url("../public/fonts/Chopsic.otf") format("opentype");
+}
+
+.fontChopasic {
+  font-family: "Chopsic";
+}
+
 /* Global body styles */
 body {
   margin: 0;
