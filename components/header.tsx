@@ -172,7 +172,7 @@ const JoinVersabotV = styled.a`
   white-space: pre-wrap;
   text-align: center;
   border-radius: 4px;
-  box-shadow: 0px 2px 8px rgba(235, 254, 100, 0.4);
+  // box-shadow: 0px 2px 8px rgba(235, 254, 100, 0.4);
 
   @media screen and (max-width: 1200px) {
     font-size: 12px;
@@ -350,45 +350,24 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </HeaderContent>
         <Menu>
           <NavLinks onClick={() => setMenuOpen(false)}>
-            <SocialIconsContainer>
-              <a
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  // height: "50px",
-                  // width: "50px",
-                  // opacity: 0.5,
-                }}
-                href="https://t.me/Neurafi_official"
-                target="_blank"
-              >
-                <SocialIcons
-                  style={{
-                    scale: "1.09",
-                    marginTop: "8px",
-                  }}
-                  loading="lazy"
-                  alt=""
-                  src="/images/telegram.png"
-                />
-              </a>
-              <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
-                <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
-              </a>
-              <a href="https://x.com/Neurafi_Official" target="_blank">
-                <SocialIcons alt="" src="/images/x.png" />
-              </a>
-              <a href="https://blog.Neurafi.io/" target="_blank">
-                <SocialIcons
-                  style={{
-                    scale: "1.2",
-                    marginTop: "5px",
-                  }}
-                  alt=""
-                  src="/images/medium.png"
-                />
-              </a>
-            </SocialIconsContainer>
+            <div
+              style={{
+                display: "flex",
+                gap: "20px",
+                border: "1px solid rgba(255, 255, 255, 0.2)", // Black border with 9% opacity
+                borderRadius: "40px",
+                padding: "0.8rem 2rem",
+                marginLeft: "auto",
+              }}
+            >
+              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Home</div>{" "}
+              {/* White text with 70% opacity */}
+              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>
+                Whitepaper
+              </div>
+              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Gitbook</div>
+              <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Twitter</div>
+            </div>
 
             {/* <Home href="#home">Home</Home>
             <Docs
@@ -411,7 +390,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
               href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
               target="_blank"
             >
-              Whitepaper
+              LAUNCH NEURAFI
             </JoinVersabotV>
           </div>
         </NavBtn>
@@ -431,51 +410,28 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </Docs>
         <ContactUs href="#contact-us">Contact us</ContactUs>
         <ForCommunities href="#white-label">For Communities</ForCommunities> */}
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <a
-            style={{
-              textDecoration: "none",
-              color: "inherit",
-              // height: "50px",
-              // width: "50px",
-              // opacity: 0.5,
-            }}
-            href="https://t.me/Neurafi_official"
-            target="_blank"
-          >
-            <SocialIcons
-              style={{
-                scale: "1.09",
-                marginTop: "8px",
-              }}
-              loading="lazy"
-              alt=""
-              src="/images/telegram.png"
-            />
-          </a>
-          <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
-            <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
-          </a>
-          <a href="https://x.com/Neurafi_Official" target="_blank">
-            <SocialIcons alt="" src="/images/x.png" />
-          </a>
-          <a href="https://blog.Neurafi.io/" target="_blank">
-            <SocialIcons
-              style={{
-                scale: "1.2",
-                marginTop: "5px",
-              }}
-              alt=""
-              src="/images/medium.png"
-            />
-          </a>
+        <div
+          style={{
+            display: "flex",
+            gap: "20px",
+            flexDirection: "column",
+            padding: "0.8rem 2rem",
+            margin: "auto",
+          }}
+        >
+          <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Home</div>{" "}
+          {/* White text with 70% opacity */}
+          <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Whitepaper</div>
+          <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Gitbook</div>
+          <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Twitter</div>
         </div>
+
         <NavBtnMenu>
           <JoinVersabotV
             href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
             target="_blank"
           >
-            Whitepaper
+            LAUNCH NEURAFI
           </JoinVersabotV>
         </NavBtnMenu>
       </MobileMenu>
