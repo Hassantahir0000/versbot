@@ -377,10 +377,10 @@ const HeroContent: NextPage<ContentType> = ({ className = "" }) => {
             </div>
             <div>
               <JoinVersabotV
-                href="https://t.me/Versaxofficial_bot"
+                href="https://t.me/Neurafiofficial_bot"
                 target="_blank"
               >
-                <Button>START TRADING WITH VERSAX</Button>
+                <Button>START TRADING WITH Neurafi</Button>
               </JoinVersabotV>
             </div>
           </TextBlock>

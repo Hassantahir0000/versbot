@@ -19,7 +19,7 @@ const PrivacyNotice: NextPage = () => {
             For the purposes of this -Privacy Notice-, VERSALABS INC, a
             Corporation, domiciled in the Republic of Panama, is responsible for
             the protection and processing of your data. You can contact them via
-            email at info@versax.io.
+            email at info@Neurafi.io.
           </p>
           <p>
             It will be established how your information will be treated by
@@ -57,7 +57,7 @@ const PrivacyNotice: NextPage = () => {
             rights of access, rectification, cancellation, or opposition
             concerning their personal data, as well as request the revocation of
             their consent, by sending a request to VERSALABS INC via email at
-            info@versax.io, providing their full name and address or any other
+            info@Neurafi.io, providing their full name and address or any other
             data or document that allows their identification, including a legal
             document proving ownership, as well as the purpose of their request
             and/or procedure to be carried out. If the person submitting the
@@ -135,15 +135,15 @@ const PrivacyNotice: NextPage = () => {
                 color: "#8CEA69",
               }}
               target="_blank"
-              href="http://www.versax.io/"
+              href="http://www.Neurafi.io/"
             >
-              www.versax.io
+              www.Neurafi.io
             </a>
             .
           </p>
           <p>
             If you have any questions or wish to exercise any right related to
-            this privacy statement, please contact info@versax.io. If you
+            this privacy statement, please contact info@Neurafi.io. If you
             believe that your right to personal data protection has been
             violated, as well as ARCO rights, you can also go to the National
             Authority for Transparency and Access to Information "ANTAI", whose

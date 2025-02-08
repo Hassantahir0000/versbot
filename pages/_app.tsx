@@ -23,33 +23,33 @@ function MyApp({ Component, pageProps }: AppProps) {
         </title>
         <meta
           name="description"
-          content="VersaX, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
+          content="Neurafi, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
         />
 
-        <meta property="og:url" content="https://versax.io" />
+        <meta property="og:url" content="https://Neurafi.io" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="VersaX | The AI-Powered, Non-Custodial Trading Experience"
+          content="Neurafi| The AI-Powered, Non-Custodial Trading Experience"
         />
         <meta
           property="og:description"
-          content="VersaX, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
+          content="Neurafi, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
         />
-        <meta property="og:image" content="https://versax.io/og-banner.jpg" />
+        <meta property="og:image" content="https://Neurafi.io/og-banner.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="versax.io" />
-        <meta property="twitter:url" content="https://versax.io" />
+        <meta property="twitter:domain" content="Neurafi.io" />
+        <meta property="twitter:url" content="https://Neurafi.io" />
         <meta
           name="twitter:title"
-          content="VersaX | The First Non-Custodial Telegram Trading Bot"
+          content="Neurafi| The First Non-Custodial Telegram Trading Bot"
         />
         <meta
           name="twitter:description"
-          content="VersaX, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
+          content="Neurafi, the first AI-powered, non-custodial, cross-chain platform on TG and Web, leverages advanced features to offer a secure and smart trading experience."
         />
-        <meta name="twitter:image" content="https://versax.io/og-banner.jpg" />
+        <meta name="twitter:image" content="https://Neurafi.io/og-banner.jpg" />
 
         <style
           dangerouslySetInnerHTML={{

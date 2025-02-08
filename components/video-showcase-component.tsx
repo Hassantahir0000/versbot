@@ -285,7 +285,7 @@ const VideoShowCaseComponent: NextPage<VideoShowCaseComponentType> = ({
       title: "AI-Powered Telegram Bot",
       description:
         "Trade smarter and faster with our AI-driven Telegram bot. Execute trades, manage your portfolio, and access real-time market insights—all through simple commands within Telegram.",
-      video: "/versax_demo.mp4",
+      video: "/Neurafi_demo.mp4",
     },
     {
       iconSrc: "/timeline@2x.png",
@@ -381,7 +381,7 @@ const VideoShowCaseComponent: NextPage<VideoShowCaseComponentType> = ({
           color: "#e1e1e1",
         }}
       >
-        WHAT NeuaFi OFFERS
+        WHAT Neurafi OFFERS
       </h2>
     </Section06FeaturesWrapperRoot>
   );

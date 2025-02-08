@@ -377,7 +377,7 @@ export default function Home() {
             >
               <DefiExperience>Take control </DefiExperience>
               <ElevateYour>{`of Your DeFi Journey with `}</ElevateYour>
-              <DefiExperience>VersaX</DefiExperience>
+              <DefiExperience>Neurafi</DefiExperience>
             </H>
 
             <InfoDescription style={{}}>
@@ -390,7 +390,7 @@ export default function Home() {
                 }}
               >
                 Whether you're looking to optimize your trading strategies with
-                AI or simply seeking a secure, user-friendly platform, VersaX is
+                AI or simply seeking a secure, user-friendly platform, Neurafiis
                 here to support your DeFi ambitions. Join our growing community
                 of traders and experience the future of decentralized finance
                 today, with the convenience of Telegram and the power of a
@@ -404,7 +404,7 @@ export default function Home() {
                 justifyContent: "center",
                 textAlign: "center",
               }}
-              href="https://t.me/Versaxofficial_bot"
+              href="https://t.me/Neurafiofficial_bot"
               target="_blank"
             >
               <Button

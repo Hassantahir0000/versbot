@@ -328,15 +328,15 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             <Text2>
               <H>
                 <EmpowerYour>{`Empower Your Community with `}</EmpowerYour>
-                <VersabotsWhiteLabel>VersaX on Telegram</VersabotsWhiteLabel>
+                <VersabotsWhiteLabel>Neurafion Telegram</VersabotsWhiteLabel>
               </H>
               <Text1>
                 <CommunityBannerSubtitles>
-                  VersaX offers a white-label solution to integrate a fully
+                  Neurafioffers a white-label solution to integrate a fully
                   customized version of our platform directly into your Telegram
                   channels. Enhance community engagement, provide real-time
                   trading signals, and create new revenue streams by offering
-                  VersaX’s advanced features to your members—all within the
+                  Neurafi’s advanced features to your members—all within the
                   Telegram ecosystem.
                 </CommunityBannerSubtitles>
                 {/* <CommunityBannerSubtitles>

@@ -420,7 +420,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
         </WrapperEllipse>
         <Subscription>
           <Text1>
-            <H>Stay Connected with VersaX</H>
+            <H>Stay Connected with Neurafi</H>
             <SubscriptionDescription>
               Follow us on social media and stay updated on the latest features
               and news. Experience seamless trading directly in Telegram or via
@@ -435,7 +435,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                   // width: "50px",
                   // opacity: 0.5,
                 }}
-                href="https://t.me/versax_official"
+                href="https://t.me/Neurafi_official"
                 target="_blank"
               >
                 <SocialIcons
@@ -451,10 +451,10 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
                 <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
               </a>
-              <a href="https://x.com/VersaX_Official" target="_blank">
+              <a href="https://x.com/Neurafi_Official" target="_blank">
                 <SocialIcons alt="" src="/images/x.png" />
               </a>
-              <a href="https://blog.versax.io/" target="_blank">
+              <a href="https://blog.Neurafi.io/" target="_blank">
                 <SocialIcons
                   style={{
                     scale: "1.2",
@@ -484,7 +484,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
           <Menu1>
             <WebLogo>
               <img src="/images/logo-footer.svg" alt="" />
-              {/* <LogoIcon alt="" src="/versax-logo.svg" />
+              {/* <LogoIcon alt="" src="/Neurafi-logo.svg" />
               <LogoText>
                 <BrandContainerIcon alt="" src="/frame-255-1@2x.png" />
               </LogoText> */}
@@ -494,12 +494,12 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               <NavOptions>
                 <Home href="#home">Home</Home>
                 <Docs1
-                  href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
+                  href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
                   target="_blank"
                 >
                   Docs
                 </Docs1>
-                <Docs1 href="https://docs.versax.io/versabot/faq-and-troubleshooting">
+                <Docs1 href="https://docs.Neurafi.io/versabot/faq-and-troubleshooting">
                   FAQ
                 </Docs1>
                 <ContactUs href="#contact-us">Contact us</ContactUs>

@@ -405,7 +405,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
                 <GradientText>Trade on </GradientText>
                 Your Mobile
                 <GradientText> or Browser with </GradientText>
-                VersaX
+                Neurafi
               </TextPoint>
             </div>
             <div
@@ -463,7 +463,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
     //       </H>
     //       <BannerSubtitles>
     //         <BannerSubtitleItems>
-    //           VersaX combines the power of Artificial Intelligence with the
+    //           Neuraficombines the power of Artificial Intelligence with the
     //           security convenience of a non-custodial Telegram bot and a web
     //           app. Our platform offers traders a simple, intuitive interface to
     //           manage digital assets, execute trades, and access advanced DeFi
@@ -501,7 +501,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
     //                 fontSize: "28px",
     //               }}
     //             >
-    //               Trade on Your Mobile or browser with VersaX
+    //               Trade on Your Mobile or browser with Neurafi
     //             </span>
     //           </div>
     //           <div

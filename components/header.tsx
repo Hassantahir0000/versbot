@@ -312,6 +312,24 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
     setMenuOpen(!menuOpen);
   };
 
+  const SocialIcons = styled.img`
+    height: 30px;
+    width: 30px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+    color: #a75eff;
+  `;
+  const SocialIconsContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: auto;
+  `;
+
   return (
     <HeaderRoot className={className}>
       <div
@@ -332,15 +350,55 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </HeaderContent>
         <Menu>
           <NavLinks onClick={() => setMenuOpen(false)}>
-            <Home href="#home">Home</Home>
+            <SocialIconsContainer>
+              <a
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  // height: "50px",
+                  // width: "50px",
+                  // opacity: 0.5,
+                }}
+                href="https://t.me/Neurafi_official"
+                target="_blank"
+              >
+                <SocialIcons
+                  style={{
+                    scale: "1.09",
+                    marginTop: "8px",
+                  }}
+                  loading="lazy"
+                  alt=""
+                  src="/images/telegram.png"
+                />
+              </a>
+              <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
+                <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
+              </a>
+              <a href="https://x.com/Neurafi_Official" target="_blank">
+                <SocialIcons alt="" src="/images/x.png" />
+              </a>
+              <a href="https://blog.Neurafi.io/" target="_blank">
+                <SocialIcons
+                  style={{
+                    scale: "1.2",
+                    marginTop: "5px",
+                  }}
+                  alt=""
+                  src="/images/medium.png"
+                />
+              </a>
+            </SocialIconsContainer>
+
+            {/* <Home href="#home">Home</Home>
             <Docs
-              href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
+              href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
               target="_blank"
             >
               Docs
             </Docs>
             <ContactUs href="#contact-us">Contact us</ContactUs>
-            <ForCommunities href="#white-label">For Communities</ForCommunities>
+            <ForCommunities href="#white-label">For Communities</ForCommunities> */}
           </NavLinks>
         </Menu>
         <NavBtn>
@@ -350,10 +408,10 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
             }}
           >
             <JoinVersabotV
-              href="https://t.me/Versaxofficial_bot"
+              href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
               target="_blank"
             >
-              JOIN VERSAX
+              Whitepaper
             </JoinVersabotV>
           </div>
         </NavBtn>
@@ -364,18 +422,60 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </Hamburger>
       </HamburguerCntainer>
       <MobileMenu open={menuOpen}>
-        <Home href="#home">Home</Home>
+        {/* <Home href="#home">Home</Home>
         <Docs
-          href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
+          href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
           target="_blank"
         >
           Docs
         </Docs>
         <ContactUs href="#contact-us">Contact us</ContactUs>
-        <ForCommunities href="#white-label">For Communities</ForCommunities>
+        <ForCommunities href="#white-label">For Communities</ForCommunities> */}
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <a
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              // height: "50px",
+              // width: "50px",
+              // opacity: 0.5,
+            }}
+            href="https://t.me/Neurafi_official"
+            target="_blank"
+          >
+            <SocialIcons
+              style={{
+                scale: "1.09",
+                marginTop: "8px",
+              }}
+              loading="lazy"
+              alt=""
+              src="/images/telegram.png"
+            />
+          </a>
+          <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
+            <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
+          </a>
+          <a href="https://x.com/Neurafi_Official" target="_blank">
+            <SocialIcons alt="" src="/images/x.png" />
+          </a>
+          <a href="https://blog.Neurafi.io/" target="_blank">
+            <SocialIcons
+              style={{
+                scale: "1.2",
+                marginTop: "5px",
+              }}
+              alt=""
+              src="/images/medium.png"
+            />
+          </a>
+        </div>
         <NavBtnMenu>
-          <JoinVersabotV href="https://t.me/versax_official" target="_blank">
-            JOIN VERSAX
+          <JoinVersabotV
+            href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
+            target="_blank"
+          >
+            Whitepaper
           </JoinVersabotV>
         </NavBtnMenu>
       </MobileMenu>
