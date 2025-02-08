@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Build artifacts
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Testing files
+coverage/
+.nyc_output/
+.vscode/
+
+# Next.js serverless
+.next/serverless/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# IDE-specific settings (optional)
+.idea/
+*.sublime-workspa
