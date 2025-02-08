@@ -243,7 +243,7 @@ const VersabotDesktopOptRoot = styled.div`
 import ScrollToTop from "../components/ScrollToTop";
 import { ToastContainer } from "react-toastify";
 
-const VersaBotDesktopOPT7: NextPage = () => {
+export default function Home() {
   useIntersectionObserver(".animate-on-scroll");
 
   return (
@@ -431,5 +431,4 @@ const VersaBotDesktopOPT7: NextPage = () => {
       </VersabotDesktopOptRoot>
     </>
   );
-};
-export default VersaBotDesktopOPT7;
+}
