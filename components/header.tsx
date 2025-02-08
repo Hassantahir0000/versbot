@@ -408,7 +408,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
             }}
           >
             <JoinVersabotV
-              href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
+              href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
               target="_blank"
             >
               Whitepaper
@@ -472,7 +472,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         </div>
         <NavBtnMenu>
           <JoinVersabotV
-            href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
+            href="https://docs.versax.io/1.-introduction-to-versax/1.1-what-is-versax"
             target="_blank"
           >
             Whitepaper

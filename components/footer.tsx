@@ -435,7 +435,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                   // width: "50px",
                   // opacity: 0.5,
                 }}
-                href="https://t.me/Neurafi_official"
+                href="https://t.me/versax_official"
                 target="_blank"
               >
                 <SocialIcons
@@ -451,10 +451,10 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
                 <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
               </a>
-              <a href="https://x.com/Neurafi_Official" target="_blank">
+              <a href="https://x.com/VersaX_Official" target="_blank">
                 <SocialIcons alt="" src="/images/x.png" />
               </a>
-              <a href="https://blog.Neurafi.io/" target="_blank">
+              <a href="https://blog.versax.io/" target="_blank">
                 <SocialIcons
                   style={{
                     scale: "1.2",
