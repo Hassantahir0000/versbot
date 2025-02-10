@@ -133,6 +133,7 @@ const Button = styled.button`
   justify-content: flex-start;
   @media screen and (max-width: 800px) {
     padding: 12px 30px;
+    margin: 0 auto;
   }
 `;
 const Form = styled.div`
@@ -154,10 +155,12 @@ const Subscription = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
+  text-align: center;
   gap: 56px;
   max-width: 100%;
   z-index: 1;
+  width: 80%;
   @media screen and (max-width: 800px) {
     gap: 28px;
   }
@@ -325,8 +328,9 @@ const SocialIcons = styled.img`
 const SocialIconsContainer = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   gap: 24px;
 `;
 const CopyrightSocials = styled.div`
@@ -371,7 +375,7 @@ const Footer1 = styled.div`
   justify-content: flex-start;
   padding: 65px 20px 61px;
   position: relative;
-  gap: 96px;
+  gap: 26px;
   max-width: 100%;
   @media screen and (max-width: 1300px) {
     gap: 48px;
@@ -426,6 +430,18 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               and news. Experience seamless trading directly in Telegram or via
               our web app.
             </SubscriptionDescription>
+
+            <Form style={{ margin: "auto" }}>
+              <Input>
+                <SubscriptionPlaceholderButto
+                  placeholder="Your E-mail"
+                  type="text"
+                />
+              </Input>
+              <Button>
+                <JoinVersabotV>Subscribe</JoinVersabotV>
+              </Button>
+            </Form>
             <SocialIconsContainer>
               <a
                 style={{
@@ -466,19 +482,8 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               </a>
             </SocialIconsContainer>
           </Text1>
-
-          <Form>
-            <Input>
-              <SubscriptionPlaceholderButto
-                placeholder="Your E-mail"
-                type="text"
-              />
-            </Input>
-            <Button>
-              <JoinVersabotV>Subscribe</JoinVersabotV>
-            </Button>
-          </Form>
         </Subscription>
+
         <LineParent>
           <Line />
           <Menu1>

@@ -145,7 +145,7 @@ const BannerWrapperRoot = styled.section`
     box-sizing: border-box;
     margin-top: 100px;
   }
-  margin-top: 200px;
+  margin-top: 100px;
 `;
 
 const RobotContainer = styled.section`

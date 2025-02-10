@@ -14,11 +14,11 @@ const AllYourDefi = styled.span`
 `;
 
 const ImgTelegramIcon = styled.img`
-  width: 406px;
-  height: 350px;
+  width: 456px;
+  height: 450px;
   position: absolute;
   right: 60px;
-  bottom: 30%;
+  bottom: -12%;
   z-index: 4;
   @media screen and (max-width: 1200px) {
     width: 200px;
@@ -252,7 +252,7 @@ const CallToActionRoot = styled.section`
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0px 20px 199px;
+  padding: 0px 20px 10px;
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;

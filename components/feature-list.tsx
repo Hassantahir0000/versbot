@@ -528,12 +528,13 @@ const FeatureRow = styled.div`
 `;
 
 const FeatureListRoot = styled.section`
+  margin-top: -50px;
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0px 20px 199px;
+  padding: 0px 20px 10px;
   box-sizing: border-box;
   max-width: 100%;
   text-align: left;

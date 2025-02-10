@@ -358,15 +358,17 @@ export default function Home() {
           className="animate-on-scroll"
           style={{
             // border: "1px solid purple",
-            marginBottom: "200px",
+            marginBottom: "50px",
             zIndex: 2,
           }}
         >
           <InfoContent
-            style={{
-              height: "500px",
-              // border: "1px solid red",
-            }}
+            style={
+              {
+                // height: "500px",
+                // border: "1px solid red",
+              }
+            }
           >
             <H
               style={{
