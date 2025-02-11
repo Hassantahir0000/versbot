@@ -361,7 +361,14 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
               }}
             >
               <div className="hover-text">Home</div>
-              <div className="hover-text">Whitepaper</div>
+              <a
+                href="/whitepaper.pdf"
+                style={{ textDecoration: "none" }}
+                target="_blank"
+                className="hover-text"
+              >
+                Whitepaper
+              </a>
               <div className="hover-text">Gitbook</div>
               <div className="hover-text">Twitter</div>
             </div>
@@ -418,7 +425,16 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
         >
           <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Home</div>{" "}
           {/* White text with 70% opacity */}
-          <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Whitepaper</div>
+          <a
+            href="/whitepaper.pdf"
+            target="_blank"
+            style={{
+              color: "rgba(255, 255, 255, 0.7)",
+              textDecoration: "none",
+            }}
+          >
+            Whitepaper
+          </a>
           <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Gitbook</div>
           <div style={{ color: "rgba(255, 255, 255, 0.7)" }}>Twitter</div>
         </div>

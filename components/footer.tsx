@@ -225,28 +225,28 @@ const Docs = styled.a`
 const Home = styled.a`
   text-decoration: none;
   color: inherit;
-  width: 47px;
+  width: 50px;
   position: relative;
   line-height: 24px;
   font-weight: 500;
   font-family: inherit;
   display: inline-block;
-  min-width: 47px;
+  min-width: 50px;
 `;
 const Docs1 = styled.a`
   text-decoration: none;
   color: inherit;
-  width: 42px;
+  width: 50px;
   position: relative;
   line-height: 24px;
   font-weight: 500;
   display: inline-block;
-  min-width: 42px;
+  min-width: 50px;
 `;
 const ContactUs = styled.a`
   text-decoration: none;
   color: white;
-  width: 93px;
+  width: 50px;
   position: relative;
   line-height: 24px;
   font-weight: 500;
@@ -266,9 +266,9 @@ const NavOptions = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   max-width: 100%;
-  gap: 10px;
+  gap: 50px;
   font-size: 12px;
   @media screen and (max-width: 800px) {
     flex-wrap: wrap;
@@ -443,42 +443,15 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               </Button>
             </Form>
             <SocialIconsContainer>
-              <a
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  // height: "50px",
-                  // width: "50px",
-                  // opacity: 0.5,
-                }}
-                href="https://t.me/versax_official"
-                target="_blank"
-              >
-                <SocialIcons
-                  style={{
-                    scale: "1.09",
-                    marginTop: "8px",
-                  }}
-                  loading="lazy"
-                  alt=""
-                  src="/images/telegram.png"
-                />
+              <a href="/whitepaper.pdf" target="_blank">
+                <SocialIcons loading="lazy" alt="" src="/images/paper.svg" />
               </a>
-              <a href="https://discord.gg/rnnKEn4Tc2" target="_blank">
-                <SocialIcons loading="lazy" alt="" src="/images/discord.png" />
+              <a href="" target="_blank">
+                <SocialIcons loading="lazy" alt="" src="/images/git.svg" />
               </a>
-              <a href="https://x.com/VersaX_Official" target="_blank">
-                <SocialIcons alt="" src="/images/x.png" />
-              </a>
-              <a href="https://blog.versax.io/" target="_blank">
-                <SocialIcons
-                  style={{
-                    scale: "1.2",
-                    marginTop: "5px",
-                  }}
-                  alt=""
-                  src="/images/medium.png"
-                />
+
+              <a href="" target="_blank">
+                <SocialIcons loading="lazy" alt="" src="/images/twitter.svg" />
               </a>
             </SocialIconsContainer>
           </Text1>
@@ -498,20 +471,11 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
               <Docs>Docs</Docs>
               <NavOptions>
                 <Home href="#home">Home</Home>
-                <Docs1
-                  href="https://docs.Neurafi.io/1.-introduction-to-Neurafi/1.1-what-is-Neurafi"
-                  target="_blank"
-                >
-                  Docs
+                <Docs1 href="/whitepaper.pdf" target="_blank">
+                  Whitepaper
                 </Docs1>
-                <Docs1 href="https://docs.Neurafi.io/versabot/faq-and-troubleshooting">
-                  FAQ
-                </Docs1>
-                <ContactUs href="#contact-us">Contact us</ContactUs>
-
-                <ForCommunities href="#white-label">
-                  For Communities
-                </ForCommunities>
+                <Docs1 href="">Gitbook</Docs1>
+                <ContactUs href="">Twitter</ContactUs>
               </NavOptions>
             </Menu>
           </Menu1>
@@ -527,7 +491,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                 width: "100%",
               }}
             >
-              Neurafi Copyright 2024. All Rights Reserved.
+              Neurafi Copyright 2025. All Rights Reserved.
               <div
                 style={{
                   display: "flex",
