@@ -100,8 +100,10 @@ const Input = styled.div`
   align-items: center;
   justify-content: flex-start;
   padding: 12px 19px;
-  min-width: 229px;
   max-width: 100%;
+  @media screen and (min-width: 900px) {
+    min-width: 229px;
+  }
 `;
 const JoinVersabotV = styled.b`
   width: 94px;
@@ -146,7 +148,6 @@ const Form = styled.div`
   max-width: 100%;
   @media screen and (max-width: 800px) {
     flex-wrap: wrap;
-    padding: 20px;
   }
 `;
 const Subscription = styled.div`
